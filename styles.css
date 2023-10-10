@@ -138,8 +138,6 @@ div {
     font-size: 7rem;
     text-shadow: 2px 3px 1px rgba(17, 16, 16, 0.87);
     text-transform: uppercase;
-
-
 }
 
 .main-banner-img {
@@ -156,7 +154,7 @@ div {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 80px 140px;
+    padding: 50px 80px;
 }
 
 .pinned-items-container img {
@@ -175,14 +173,19 @@ div {
 .right-pinned-item-2 {
     position: relative;
 }
-.left-pinned-item-content, .right-pinned-item-content{
+
+.left-pinned-item-content,
+.right-pinned-item-content {
     position: absolute;
     top: 5%;
-    left: 5%;    
+    left: 5%;
 }
-.pinned-items-container h2, .pinned-items-container h3{
+
+.pinned-items-container h2,
+.pinned-items-container h3 {
     color: white;
 }
-.bottom-margin-10{
+
+.bottom-margin-10 {
     margin-bottom: 10px;
 }
