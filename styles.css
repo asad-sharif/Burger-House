@@ -213,6 +213,10 @@
 .menu-item img {
     width: 90%;
 }
+.menu-item img:hover{
+    transform: scale(1.1) rotate(5deg);
+    padding-bottom: 20px;
+}
 
 .menu-item {
     padding: 20px;
@@ -226,6 +230,9 @@
     border: none;
     margin-top: 10px;
     font-size: 1rem;
+}
+.menu-item button:hover{
+    cursor: pointer;
 }
 
 /* reservation section */
