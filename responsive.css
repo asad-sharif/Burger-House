@@ -31,12 +31,31 @@
 @media (max-width: 769px) {
     .first-navbar {
         flex-direction: column;
+        padding: 1rem 1.2rem;
         /* align-items: center; */
     }
 
     .second-navbar {
         flex-direction: column;
         align-items: stretch;
+        padding: 1rem 1.2rem;
+    }
+
+    .main-banner-content p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .main-banner-content h1 {
+        font-size: 5rem;
+    }
+
+    .main-banner-content h2 {
+        font-size: 3rem;
+    }
+
+    .main-banner-container img {
+        width: 100%;
     }
 
     .pinned-items-container {
@@ -46,7 +65,11 @@
 
     .left-pinned-item,
     .right-pinned-items-stack {
-        width: 600px;
+        width: 320px;
+    }
+
+    .menu-section-container {
+        padding: 50px 30px
     }
 
     .stacked-item-1 {
@@ -55,11 +78,32 @@
 
     .pinned-item-content h3,
     .pinned-item-content h2 {
-        font-size: 2rem;
+        font-size: 1.1rem;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    .form-div {
+        flex-direction: column;
+    }
+
+    .footer-left-content-p {
+        width: 100%;
+    }
+    input{
+        margin: 10px 0;
+    }
+    form button{
+        margin: 10px 0;
     }
 
     .footer-container {
         flex-direction: column;
         align-items: start;
     }
+
+
+
 }
