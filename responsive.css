@@ -60,7 +60,7 @@
 
     .pinned-items-container {
         flex-direction: column;
-        padding: 5% 2%;
+        padding: 5% 1.5%;
     }
 
     .left-pinned-item,
@@ -102,6 +102,10 @@
     .footer-container {
         flex-direction: column;
         align-items: start;
+    }
+    .footer-left-content {
+        flex: 2;
+        padding-left: 0;
     }
 
 
