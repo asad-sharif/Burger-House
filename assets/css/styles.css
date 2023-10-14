@@ -11,7 +11,22 @@
 
 #main-banner-section {
     /* background-color: #f7b503; */
-    background-image: url(./assets/main-bg.png);
+    background-image: url(../images/main-bg.png);
+}
+.second-navbar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.5s ease;
+}
+.second-navbar.sticky{
+    background-color: #f7b503;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    top: 0;
 }
 
 .first-navbar {
@@ -19,6 +34,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     /* background-color: #f7b503; */
 }
 
@@ -42,8 +61,7 @@
     justify-content: end;
     align-items: center;
     padding: 1rem 5rem;
-    position: sticky;
-    top: 0;
+
     /* background-color: #f7b503; */
 }
 
@@ -98,7 +116,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 60px;
+    padding: 200px 60px 50px 60px;
 }
 
 .main-banner-content {
@@ -212,10 +230,12 @@
 
 .menu-item img {
     width: 90%;
+    padding-bottom: 20px;
 }
 .menu-item img:hover{
     transform: scale(1.1) rotate(5deg);
-    padding-bottom: 20px;
+    transition: .5s ease-in-out;
+    
 }
 
 .menu-item {
@@ -294,7 +314,7 @@ form button:hover{
 /* footer */
 footer {
     width: 100%;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./assets/footer-bg.png);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(../images/footer-bg.png);
     color: white;
     display: flex;
     flex-direction: column;
