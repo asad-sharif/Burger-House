@@ -40,6 +40,9 @@
         align-items: stretch;
         padding: 1rem 1.2rem;
     }
+    .second-navbar.sticky{
+        display: none;
+    }
     .toggle-button {
         display: flex;
     }
